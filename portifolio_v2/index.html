@@ -1,69 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Gabriel Ferreira Uciel | Dev Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Fonte Google Inter para tipografia moderna -->
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
-    <div class="titulo">
 
-      <header>
-        <h5>Gabriel Ferreira Uciel | Dev</h5>
-      </header>
+    <!-- CABEÇALHO -->
+    <header class="navbar">
+        <div class="logo">
+            GABRIEL FERREIRA UCIEL <span>/ DEV</span>
+        </div>
+        <nav class="menu">
+            <a href="#home" class="active">HOME</a>
+            <a href="#sobre">SOBRE MIM</a>
+            <a href="#projetos">PROJETOS</a>
+            <a href="#habilidades">HABILIDADES</a>
+            <a href="#contato">CONTATO</a>
+        </nav>
+    </header>
 
-     <div class="menu">
-         <p><a href="">HOME</a></p>
-         <p><a href="">SOBRE MIM</a></p>
-         <p><a href="">PROJETOS</a></p>
-         <p><a href="">HIBILIDADES</a></p>
-         <p><a href="">CONTATOS</a></p>
-     </div>
+    <!-- CONTAINER PRINCIPAL -->
+    <main class="main-container">
 
+        <!-- SESSÃO HERO (HOME) -->
+        <section id="home" class="hero-section">
+            <div class="hero-profile">
+                <!-- Certifique-se de que a imagem esteja sem fundo ou estilizada -->
+                <img src="imagens/gabriel.png" alt="Gabriel Ferreira Uciel">
+            </div>
 
-    </div>
+            <div class="hero-content">
+                <p class="greeting">OLÁ, SOU O GABRIEL.</p>
+                <h1>FRONT-END & BACK-END DEVELOPER.</h1>
+                <a href="#projetos" class="btn-primary">VER PROJETOS</a>
+            </div>
 
-    
+            <div class="hero-previews">
+                <div class="preview-card card-1"></div>
+                <div class="preview-card card-2"></div>
+            </div>
+        </section>
 
-    
-    <div class="coluna-esquerda">
+        <!-- SESSÃO PROJETOS -->
+        <section id="projetos" class="section">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-info">
+                        <h3>PÁGINA TRIBUTO</h3>
+                        <p>Descrição curta do projeto realizado.</p>
+                        <span class="tag">HTML / CSS</span>
+                    </div>
+                </div>
 
-       <!-- GitHub -->
-         <a href="https://github.com/seu-usuario" target="_blank">
-           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF">
-           <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-           </svg>
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-info">
+                        <h3>GALERIA RESPONSIVA</h3>
+                        <p>Descrição curta do projeto realizado.</p>
+                        <span class="tag">Flexbox / Grid</span>
+                    </div>
+                </div>
 
-         <span>GitHub</span>
-         </a>
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-info">
+                        <h3>LINKTREE CLONE</h3>
+                        <p>Descrição curta do projeto realizado.</p>
+                        <span class="tag">Mobile-first</span>
+                    </div>
+                </div>
 
-        <!-- LinkedIn -->
+                <div class="project-card active-card">
+                    <div class="card-image"></div>
+                    <div class="card-info">
+                        <h3>DASHBOARD UI</h3>
+                        <p>Descrição curta do projeto realizado.</p>
+                        <span class="tag">CSS Grid</span>
+                    </div>
+                </div>
 
-         <a href="https://linkedin.com/in/seu-usuario" target="_blank">
-           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF">
-           <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
-           </svg>
+            </div>
+        </section>
 
-          <span>LinkedIn</span>
+        <!-- SESSÃO HABILIDADES -->
+        <section id="habilidades" class="section">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">HTML5</div>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">CSS3</div>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">JS</div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Git</div>
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
 
-        </a>
+    </main>
 
-    <!-- Instagram -->
-
-    <a href="https://instagram.com/seu-usuario" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-        </svg>
-
-        <span>Instagram</span>
-    </a>
-
-</div>
-    
-    
-</body>
-</html>
+    <!-- REDES SOCIAIS (BARRA LATERAL ESQUERDA) -->
+    <aside class="coluna-esquerda">
+        <a href="https://github.com/seu-usuario" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FFFFFF">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.
