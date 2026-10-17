@@ -1,0 +1,46 @@
+
+body {
+    
+    background-color: rgb(172, 207, 238);
+    padding: 5% 10%;
+    display: flex; /*ATVIVA A FLEXBOX*/ 
+    justify-content: center;
+    align-items: center; /*ALINHA OS ITENS AO MEIO*/
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.div-1 {
+
+    display: flex;
+    flex-direction: row; /*DIRECIONA O ITENS HORIZONTALMENTE*/   
+    align-items: center;    
+    justify-content: center;
+    gap: 30px; /*ESPAÇAMENTO*/          
+    max-width: 1000px;
+    
+}
+
+figure {
+
+    margin: 0;
+    text-align: center;
+           
+}
+
+figcaption {
+
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left; 
+    margin-left: 40px;
+
+}

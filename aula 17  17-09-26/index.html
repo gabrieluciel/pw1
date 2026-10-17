@@ -1,0 +1,128 @@
+<!-- criar site com 4 páginas + index. 
+Tema: diversão
+Inserir um texto e mais 1 imagem circular ou arredondada ou polaroide -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Diversão </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css"> 
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script> 
+  <style> 
+
+  .img-rounded {
+
+    border-radius:30%;
+
+  }
+  
+  .img-polaroid {
+
+    border-radius:0%
+  
+  }
+
+  .dropdown-menu {
+
+    background-color:red;
+    hover:blue
+
+  }
+
+  .btn-primary {
+    
+    color:#0F0;
+    background-color:red;
+    border-color:#005a5a;
+
+  }
+
+  body {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+		background-size:100%;
+    padding: 20px;
+    background-color: rgb(139, 255, 164);
+
+  } 
+
+  h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: black;
+
+  }
+
+  .container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+
+  }
+
+  .texto {
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    gap: 150px;     
+
+  }
+
+  img {
+
+    box-shadow: 4px 4px 5px white;
+    
+  }
+
+  </style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu Dropdown
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="bolinha/pag1.html">Página 1</a></li>
+	<li><a href="#">Página 2</a></li>
+	<li><a href="#">Página 3</a></li>
+  </ul>
+</div>
+
+<h1>Imagens circulares / arredondadas / polaroides</h1> <br> <br> <br> <br>          
+
+  <div class="container"> 
+
+    <img src="carro1.jpg" class="img-circle" alt="Carrinho" width="304" height="236"> 
+    <img src="carro2.jpg" class="img-rounded" alt="Carrinho2">
+    <img src="musica.jpg" class="img-polaroide">
+  
+  </div> <br> <br> <br> <br>  
+
+  <div class="texto">
+    <p>O basquete é um esporte apaixonante que une velocidade, precisão e estratégia em quatro quartos de pura emoção. Criado em 1891 por James Naismith, o jogo envolve duas equipes de cinco atletas com o objetivo de lançar a bola na cesta adversária</p>
+    <p>O PlayStation 5 (PS5) é o console de nona geração da Sony, lançado em 2020, que revolucionou a forma de jogar com seu desempenho de alta velocidade. Equipado com um armazenamento SSD ultrarrápido, o aparelho praticamente eliminou as telas de carregamento, permitindo transições instantâneas nos jogos.</p>
+    <p>A música é a arte de organizar sons e silêncios com harmonia para expressar as emoções mais profundas do ser humano. Ela acompanha a nossa rotina e conecta pessoas de todas as culturas.</p>
+  </div>
+
+
+
+</body>
+</html>
+

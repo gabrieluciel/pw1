@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* MENU DROPDOWN */
+nav {
+    background-color: #1b4332;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    position: relative;
+}
+
+/* Submenu Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #1b4332;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    margin-top: 10px;
+}
+
+/* CONTEÚDO PRINCIPAL COM FLEXBOX */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex; /* Flexbox unindo texto e mapa */
+    gap: 20px;
+    background-color: #1b4332;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h1 {
+    margin-bottom: 15px;
+    color: #52b788;
+}
+
+.mapa {
+    flex: 1;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    border-radius: 8px;
+}

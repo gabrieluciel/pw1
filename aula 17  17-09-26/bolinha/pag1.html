@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title> Diversão </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css"> 
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script> 
+  <style>
+
+  .img-circle {
+
+    border-radius:100%;
+
+  }
+  .img-rounded {
+
+    border-radius:30%;
+
+  }
+
+  .img-polaroid{
+
+    border-radius:0%;
+  
+  }
+
+  .dropdown-menu {
+
+    background-color:red;
+    hover:blue;
+
+  }
+
+  .btn-primary {
+
+    color:#0F0;
+    background-color:red;
+    border-color:#005a5a;
+
+  }
+  
+  
+  body {
+
+    background:url(fundo.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+    padding: 20px;
+    background-color: rgb(139, 255, 164);
+
+  } 
+
+  h1 {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   color: black;
+
+  }
+
+  .texto-imagem {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+  }
+
+  p {
+
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  img {
+
+    box-shadow: 4px 4px 5px white;
+    
+  }
+
+  </style>
+</head>
+<body>
+  
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu Dropdown
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="E:\PW\aula 17-09-26\index.html">Home</a></li>
+    <li><a href="#">Página 2</a></li>
+    <li><a href="#">Página 3</a></li>
+    </ul>
+  </div>
+
+  <h1>Carro  /  Guitarra  /  Filme</h1> <br><br><br><br>
+
+  <div class="container"> 
+
+    <div class="texto-imagem">
+      <img src="chevette_89.png" class="img-circle" alt="Carrinho" width="304" height="236"> 
+      <p>O Chevette 1989 trazia o motor 1.6/S, que entregava cerca de 78 cavalos de potência, acoplado a um câmbio manual de cinco marchas. A grande diversidade de versões (como L, SL e SL/E) agradava quem buscava desde um carro simples para o trabalho até um acabamento mais cuidadoso</p>
+    </div> <br> <br> <br><br><br>
+
+    <div class="texto-imagem">
+      <img src="jimi_hendrix.png" class="img-rounded" width="300" height="300"> <br><br>    
+      <p>A icônica guitarra Gibson Flying V de 1967 de Jimi Hendrix ficou famosa mundialmente após ser personalizada por ele com uma pintura psicodélica feita à mão, batizada de "Love Drops"</p>
+    </div> <br><br><br><br><br>
+
+    <div class="texto-imagem">
+      <img src="et.png" class="img-polaroid">
+      <p>O filme conta a história de Elliott, um menino solitário que vive na Califórnia. Ele encontra um pequeno alienígena que ficou preso na Terra após sua nave ir embora. Elliott e seus irmãos escondem a criatura em casa e a apelidam de "E.T."</p>
+    </div>
+
+  </div>
+
+</html>

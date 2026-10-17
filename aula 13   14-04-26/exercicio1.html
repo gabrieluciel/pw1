@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+       
+        body {
+            background-color: bisque;
+        } 
+
+        #tudo {
+
+            width: 750px;
+            height: 100px;
+            line-height:50px; /* centraliza na vertical */
+            background-color: gray;
+            border: 1px dashed rgb(0, 0, 0);
+            margin: 20px auto; 
+			border-radius: 30px;
+
+        }
+
+        /*---------------------------------------------------------------------------------*/
+			
+        ul.menu  {
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;/* centraliza na horizontal */
+        }
+
+        /*---------------------------------------------------------------------------------*/
+
+        ul.menu li {
+            display: inline;
+            gap: 20px;
+        }
+
+        /*---------------------------------------------------------------------------------*/
+
+        ul.menu li a {
+            background-color: #555;
+            border-radius: 8px;
+            padding: 10px 5px;
+            color:rgb(0, 0, 0);
+        }
+
+        /*---------------------------------------------------------------------------------*/
+
+        ul.menu li a:hover {
+            background-color: white;
+        }
+
+        /*---------------------------------------------------------------------------------*/
+
+        .titulo {
+            display: flex;
+            margin-left: 6%;
+        }
+         
+        .i {
+            font-size: smaller;
+        }
+
+        .texto {
+            display: flex;
+            margin-left: 4%;
+        }
+
+        img {
+            position: fixed;
+            top: 10px;
+            right: 15px;
+            z-index: 9999;
+            width: 270px;
+            height: 270px;
+        }
+    </style>
+</head>
+<body>
+    <img src="gif.gif" alt="gif_tom_e_jerry">
+    <div id="tudo">
+        <ul class="menu">
+            <li><a href="index.html" target="_parent">Origem da música</a></li>
+            <li><a href="index1.html">Top 10 Músicas </a></li>
+            <li><a href="#">Porque ouvir música?</a></li>
+        </ul>
+    </div> <br> <br> <br> <br> <br>
+    <h1 class="titulo">Música: &nbsp; <i class="i"> (do grego μουσική τέχνη - musiké téchne, a arte das musas) </i> </h1>
+    <p class="texto">Há evidências de que a música é conhecida e praticada desde a pré-história, provavelmente a observação dos sons da natureza tenha despertado no ser humano, através do sentido auditivo a necessidade ou vontade de uma atividade que se baseasse na organização de sons embora nenhum critério cientí<br>fico permita estabelecer seu desenvolvimento de forma precisa a história da música confunde-se com a própria história do desenvolvimento da inteligência e da cultura humana</p>
+</html>

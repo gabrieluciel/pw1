@@ -1,0 +1,164 @@
+*
+{
+	border:0px solid red;
+}
+html,body
+{
+	margin:0;
+	padding:0;
+	min-height:100%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+body
+{
+	background-color:#4A4545;
+}
+#logotipo
+{	margin-top:30px;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+#logotipo.index {
+	background-image: url('../img/fundo.png');
+}
+
+#logotipo.banner-jogo1 {
+	background-image: url('../img/bannerjogo1.png');
+}
+
+#logotipo.banner-jogo2 {
+	background-image: url('../img/bannerjogo2.png');
+}
+
+#logotipo.banner-jogo3 {
+	background-image: url('../img/bannerjogo3.png');
+}
+
+#logotipo.banner-jogo4 {
+	background-image: url('../img/bannerjogo4.png');
+}
+
+#logotipo.banner-jogo5 {
+	background-image: url('../img/bannerjogo5.png');
+}
+.redeimg
+{
+	margin-top:15px;
+	height: 64px;
+	width: 64px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left: 25px;
+	transition-duration: 0.3s;
+}
+.redeimg:hover
+{
+	transform: scale(1.2);
+}
+#foot
+{
+	width: 100%;
+	height: 120px;
+	background-color:#4A4545;
+	padding:10px;
+	margin-top:10px;
+	padding-left:50px;
+}
+#footinfo
+{
+	height: 100%;
+	width: 100px;
+	float:left;
+}
+#footcopy
+{
+	font-size: 18px;
+	width: 62%;
+	margin-top: 35px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align: center;
+	float:left;
+}
+#footredes
+{
+	float:right;
+	width:325px;
+	height:100%;
+}
+#corpo
+{
+	background: #FFFFFF;
+	width: 93%;
+	height: 100%;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-left: 2px solid rbga(255,0,0,1);
+	padding-bottom:25px;
+}
+#navbar
+{
+	background-color:#A44848;
+	width:100%;
+	min-height:45px;
+}
+ul
+{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+#navbar li
+{
+	float:left;
+	font-size:25px;
+	padding:5px;
+}
+#navbar li:hover
+{
+	transition-duration: 0.3s;
+	background-color:white;
+}
+
+a
+{
+	font-family: Arial;
+	text-decoration: none;
+}
+a:link,a:visited
+{
+	color: #D1C9C9;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #6F6767;
+}
+.container
+{
+	padding-left:0;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2px;
+}
+.carousel-control.left,.carousel-control.right
+{
+	width:64px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}

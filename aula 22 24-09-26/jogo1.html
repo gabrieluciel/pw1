@@ -1,0 +1,95 @@
+<!-- inserir 5 imagens no Carrossel
+	criar 5 links para páginas de jogos
+	(Início/jogo1/jogo2/jogo3/jogo4/jogo5/Sobre)
+	trocar a imagem do id logotipo (css/#logotipo- img banner) , cor de fundo do id navbar e outros que deseja -->
+	
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<title>Jogo1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div id="corpo">
+		<div id="logotipo" class="banner-jogo1"></div>
+		<div id="navbar">
+			<ul>
+				<a href="jogo1.html" target="_parent"><li>Jogo 1</li></a>
+				<a href="jogo2.html" target="_parent"><li>Jogo 2</li></a>
+				<a href="jogo3.html" target="_parent"><li>Jogo 3</li></a>
+				<a href="jogo4.html" target="_parent"><li>Jogo 4</li></a>
+				<a href="jogo5.html" target="_parent"><li>Jogo 5</li></a>
+				<a href=""><li style="float: right;">Sobre</li></a>
+			</ul>
+		</div> <br><br>
+		<div class="container">
+            <h1><b>Grand Theft Auto San Andreas</b></h1> <br> 
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+
+					<div class="item active">
+						<img src="img/gta1.png" alt="Familia1" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>Carl Jhonson - CJ e Big Smoke</h3>
+							<p>05/01/2014</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="img/gta2.png" alt="Familia2" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>Carl Jhonson - CJ e NPC</h3>
+							<p>22/04/2012</p>
+						</div>
+					</div>
+				
+					<div class="item">
+						<img src="img/gta3.png" alt="Familia3" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>Mapa do Jogo</h3>
+							<p>15/08/2016</p>
+						</div>
+					</div>
+			
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<!-- <span class="sr-only">Previous</span> -->
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		</div>
+		<div id="foot">
+		<div id="footinfo">
+			<nav>
+			  <ul>
+				<a href="galeria.html" target="_blank"><li>Galeria</li></a>
+			  </ul>
+			</nav>
+		</div>
+		<div id="footredes">
+			<a href="#"><div class="redeimg" style="background-image: url(img/redes/instagram.png);"></div></a>
+			<a href="#"><div class="redeimg" style="background-image: url(img/redes/facebook.png);"></div></a>
+			<a href="#"><div class="redeimg" style="background-image: url(img/redes/twitter.png);"></div></a>
+		</div>
+	</body>
+</html>

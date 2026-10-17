@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(129, 185, 234);
+    padding: 50px;
+}
+
+.conteiner {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.conteiner img {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 8px white ;
+}
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}

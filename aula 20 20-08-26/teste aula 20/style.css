@@ -1,0 +1,70 @@
+
+body {
+
+    max-width: 100%;
+    background-color: rgb(235, 231, 227);
+    font-family: arial;
+}
+
+section {
+
+    padding: 0 170px;
+
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    height: 60px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.base {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+       
+}
+
+.base2 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto {
+
+    font-size: 20px;
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.texto p {
+
+    margin-left: 15px;
+    width: 100%;
+    
+}
+
+.texto img {
+
+    width: 100%;
+    max-width: 400px;   
+    object-fit: cover;
+ 
+}
